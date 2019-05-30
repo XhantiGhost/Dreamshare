@@ -28,8 +28,9 @@ p {
 
   nav {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 20px;
+    
   }
 
   html, body, div, p, ul, li {
@@ -57,8 +58,11 @@ p {
     list-style: none;
     height: 10px; 
     line-height: 50px; 
-    padding: 5px 25px; 
+    padding: 10px 25px; 
     text-decoration: none;
+    transform: translateX(-60%);
+    transform: translate(-1200%, 30%)
+    letter-spacing: -1px;
   }
   
   nav li:hover {
@@ -304,7 +308,7 @@ html {
         top: 50%;
         /* text-align: center; */
         width: 60%; 
-        transform: translate(150%, 100%)
+        transform: translate(120%, 80%)
 }
 
  /*Gallery section is styed here  */
