@@ -130,7 +130,7 @@ main {
     
   }
 
-  .partner>img {
+  .partner> img {
       border-radius: 50%;
       align-content: center;
       justify-content: right;
@@ -147,6 +147,11 @@ main {
 
   a {
       justify-items: center;
+  }
+
+  #Symbols {
+    fill: white;
+    color: white;
   }
 
   /* #airplane  {
