@@ -1,11 +1,13 @@
 /* the main body styling of the the code */
 body {
     height: 100%;
-    background-size: cover;
+    background-size: inherit;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Slab', serif;
     margin-top: none;
     padding: 10px;
+    line-height: 2em;
+    line-break: 40px;
 }
 /* this is the header styling of the code  */
 
@@ -31,26 +33,31 @@ p {
   }
 
   html, body, div, p, ul, li {
-    margin: 0;
+    line-height: 1.6em;
+    margin: 5;
     padding: 0;
-    border: 0;
-    font-size: 100%;
+    border: 20;
+    font-size: 30%;
     font: inherit;
     vertical-align: baseline;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 10;
   }
-  
+
+  #DREAMSHARE {
+    float: left;
+  }
+
   nav {
-    height: 30px; 
+    height: 10px; 
   }
   
   nav li {
     display: inline-block;
     list-style: none;
-    height: 30px; 
-    line-height: 30px; 
-    padding: 20px 40px; 
+    height: 10px; 
+    line-height: 50px; 
+    padding: 5px 25px; 
     text-decoration: none;
   }
   
@@ -149,9 +156,19 @@ main {
       justify-items: center;
   }
 
-  #Symbols {
-    fill: white;
-    color: white;
+  /* g {
+    stroke: red;
+    fill: red;
+  } */
+
+  path {
+    border-radius: 50%;
+    display: block;
+  }
+
+  #shape {
+    fill: red;
+    /* color: white; */
   }
 
   /* #airplane  {
@@ -183,8 +200,8 @@ main {
 
 .btn {
     display: inline-block;
-    padding: 10px 30px;
-    margin: 0 0.1em 0.1em 0;
+    padding: 8px 20px;
+    margin: 5px 30px;
     border: 0.16em solid rgba(255,255,255,0);
     border-radius: 2em;
     box-sizing: border-box;
@@ -212,18 +229,18 @@ main {
     transition: all 0.2s;
       background-color: white; 
       border: none;
-      padding: 15px 32px;
+      padding: 8px 20px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 4px 2px;
+      margin: 5px 30px;
       cursor: pointer;
       color: #ff4e50;
       /* top: 50%; */
         /* left: 50%; */
         /* margin-right: 100%; */
-        transform: translate(300%, -20%) 
+        transform: translate(350%, -20%) 
 
 } 
 
@@ -287,7 +304,7 @@ html {
         top: 50%;
         /* text-align: center; */
         width: 60%; 
-        transform: translate(100%, 90%)
+        transform: translate(150%, 100%)
 }
 
  /*Gallery section is styed here  */
