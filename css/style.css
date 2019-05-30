@@ -501,22 +501,37 @@ hr.line1 {
     
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
+  html, body, div, p, ul, li {
+    line-height: 0.5em;
+    margin: auto;
+    padding: 5px;
+    border: 20;
+    font-size: 50%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10;
+  }
+  
   .gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    justify-items: center;
-    grid-gap: 15px;
+     display: block;
+    /* grid-template-areas: 100px 100px */
+                           /* 100px 100px */
+                           /* 100px 100px */
+                           /* 100px; */
+    justify-items: center; 
+    /* grid-gap: 10px; */
 }
 
 .footer_grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(8, 1fr);
     grid-gap: 1.5px;
     column-gap: 1.5px;
 }
 
 .partners__grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(8, 1fr) ;
     grid-gap: 5px;
     column-gap: 30px;
