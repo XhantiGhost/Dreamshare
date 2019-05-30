@@ -422,6 +422,8 @@ hr.line1 {
     grid-column-start: 6;
     grid-column-end: 8;
 }
+
+
 @media all and (max-width: 420px){
   .container {
     margin: auto;
@@ -474,71 +476,53 @@ hr.line1 {
     width: 50%;
     padding-right: 1em;
   }
-}
-/* @media (min-width: 600px) {
-  
 
-  
-  #headline br {
-    clear: both;
+  .gallery {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 1.5px;
+}
+
+.partners__grid {
+    display: grid;
+    grid-template-columns:auto ;
+    column-gap: 5px;
+    justify-content: center;
+    
+  }
+}
+
+    
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-items: center;
+    grid-gap: 15px;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1.5px;
+    column-gap: 1.5px;
+}
+
+.partners__grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-gap: 5px;
+    column-gap: 30px;
+    justify-content: center;
+    
   }
 
-  
-  
-    .gallery {
-        display: grid;
-        grid-gap: 15px;
-    }
-
-    .footer_grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-gap: 1.5px;
-        column-gap: 1.5px;
-    }
-
-    .partners__grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr) ;
-        grid-gap: 5px;
-        column-gap: 30px;
-        justify-content: center;
-        
-      }
-
-    }
-
-      @media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        justify-items: center;
-        grid-gap: 15px;
-    }
-
-    .footer_grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-gap: 1.5px;
-        column-gap: 1.5px;
-    }
-
-    .partners__grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr) ;
-        grid-gap: 5px;
-        column-gap: 30px;
-        justify-content: center;
-        
-      }
-
-
 
 }
-    
-    
- */
