@@ -6,9 +6,38 @@
         </g>
     </g>
 </svg>
-<style>
-#Symbols {
-  filter: brightness(0.5) sepia(1) hue-rotate(140deg) saturate(6);
-}
-}
-</style>
+
+
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="cross" viewBox="0 0 20 20">
+    <path d="M17.1 5.2l-2.6-2.6-4.6 4.7-4.7-4.7-2.5 2.6 4.7
+     4.7-4.7 4.7 2.5 2.5 4.7-4.7 4.6 4.7 2.6-2.5-4.7-4.7"/>
+  </symbol>
+  <symbol id="cross"  viewBox="0 0 17 16" 
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M4.4536,15.0584 L6.0376,15.0584 L9.592,8.7216 
+            L13.6816,8.7216 C13.6816,8.7216 16.0576,8.7216 16.0576,7.6128
+             C16.0576,6.5032 13.6816,6.5032 13.6816,6.5032 L9.592,6.5032 
+             L6.0376,0.1672 L4.4536,0.1672 L6.424,6.5032 L3.5832,6.5032 L1.8008,4.9192
+              L0.2168,4.9192 L1.484,7.6128 L0.2168,10.3056 L1.8008,10.3056 L3.5832,8.7216
+               L6.424,8.7216 L4.4536,15.0584 L4.4536,15.0584 Z" id="Shape"></path>
+</symbol>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="100px" height="100px">
+    <path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;
+    text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+     d="M 25 2 C 12.32114 2 2 12.32114 2 25 C 2 37.67886 12.32114 48 25 48 C 37.67886 48 48 37.67886 48 25 C 48
+      12.32114 37.67886 2 25 2 z M 25 6 C 35.5171 6 44 14.4829 44 25 C 44 35.5171 35.5171 44 25 44 C 14.4829 44 6
+       35.5171 6 25 C 6 14.4829 14.4829 6 25 6 z" font-weight="400" font-family="sans-serif"
+        white-space="normal" overflow="visible"/>
+        <symbol id="cross"  viewBox="0 0 17 16" 
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M4.4536,15.0584 L6.0376,15.0584 L9.592,8.7216 
+            L13.6816,8.7216 C13.6816,8.7216 16.0576,8.7216 16.0576,7.6128
+             C16.0576,6.5032 13.6816,6.5032 13.6816,6.5032 L9.592,6.5032 
+             L6.0376,0.1672 L4.4536,0.1672 L6.424,6.5032 L3.5832,6.5032 L1.8008,4.9192
+              L0.2168,4.9192 L1.484,7.6128 L0.2168,10.3056 L1.8008,10.3056 L3.5832,8.7216
+               L6.424,8.7216 L4.4536,15.0584 L4.4536,15.0584 Z" id="Shape"></path>
+</symbol>
+</svg>
